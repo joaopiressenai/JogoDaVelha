@@ -10,6 +10,7 @@ public class Jogo implements Serializable {
     private String marcacao;
     private boolean houveGanahardor;
     private int qtdeJogadasDisponiveis;
+    private String resetarTabuleiro;
 
     public Jogo() {
         this.nomeJogardor1 = "";
@@ -74,6 +75,10 @@ public class Jogo implements Serializable {
 
     public void setQtdeJogadasDisponiveis(int qtdeJogadasDisponiveis) {
         this.qtdeJogadasDisponiveis = qtdeJogadasDisponiveis;
+    }
+
+    public String getResetarTabuleiro() {
+        return resetarTabuleiro = "";
     }
 
     public void alterarMarcacao() {
